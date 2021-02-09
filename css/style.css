@@ -11,6 +11,10 @@ body{
   background-color: #fff
 }
 
+.lighter_blue_bg{
+  background-color: #f3f5f9
+}
+
 /* COLORI DEL TESTO */
 
   .dark_blue_txt{
@@ -31,6 +35,16 @@ body{
 
 /* TYPO */
 
+.chevron_down{
+  font-size: 13px;
+  padding-left: 2px
+}
+
+.chevron_right{
+  font-size: 10px;
+  padding-left: 8px
+}
+
 header a{
   vertical-align: middle;
   font-size: 16px;
@@ -50,6 +64,12 @@ h3{
   font-size: 28px;
   font-weight: bold;
   color: #031c4e
+}
+
+h5{
+  margin: 0;
+  color: #6f7b97;
+  font-size:18px
 }
 
 p{
@@ -121,6 +141,13 @@ a.disclaimer{
   text-decoration: underline;
 }
 
+a.main_link{
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 0;
+  color: #006aff;
+}
 
 /* HEADER */
 
@@ -162,14 +189,39 @@ a.disclaimer{
   left: 100px
 }
 
+/* MAIN */
+
+/* Main Partners */
+
+.partners_title{
+  padding: 40px 0 20px 0
+}
+
+.sponsor_box{
+  padding: 5px 50px
+}
+
+.sponsor_img{
+  width: calc((100% / 6) - 3px);
+  padding: 0px 5px
+}
+
+
+
+
+
+
 
 /* MEDIA QUERY PER STILE */
 
+/* --------------------------------------- */
 /* < 1200 px */
 
 @media screen and (max-width: 1200px){
 
 /* HEADER */
+
+/* Header Hero */
 
   .hero_form_box{
     max-width: 300px
@@ -177,11 +229,17 @@ a.disclaimer{
 
 }
 
+/* MAIN */
+
+
+/* -------------------------------------- */
 /* < 992 px */
 
 @media screen and (max-width: 992px){
 
 /* HEADER */
+
+/* Header Hero */
 
   .hero_form_box{
     width: 100%;
@@ -199,6 +257,39 @@ a.disclaimer{
     font-size: 24px
   }
 
+  /* MAIN */
+
+/* Main Partners */
+
+.sponsor_img{
+  width: calc((100% / 2) - 3px);
+  padding: 10px 20px
+}
 
 
+/* --------------------------------- */
+/* < 767 px */
+
+@media screen and (max-width: 767px){
+
+
+}
+
+/* --------------------------------------- */
+/* < 480 px */
+
+@media screen and (max-width: 480px){
+
+  /* MAIN */
+
+  /* Main Partners */
+
+  H5.partners_title{
+    font-size: 14px
+  }
+
+  .sponsor_img{
+    width: calc((100% / 2) - 2px);
+    padding: 10px 10px
+  }
 }

@@ -4,3 +4,71 @@
 body{
   font-family: 'Roboto', sans-serifs
 }
+
+/* COLORI DI SFONDO */
+
+.bg_white{
+  background-color: #fff
+}
+
+/* COLORI DEL TESTO */
+
+  .dark_blue_txt{
+    color: #031c4e
+  }
+
+  .light_blue_text{
+    color: #006aff
+  }
+
+/* TYPO */
+
+header a{
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 500;
+  color: #031c4e
+}
+
+/* BOTTONI */
+
+.btn{
+  background-color: transparent;
+  color: #006aff;
+  border: 1px solid #006aff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: none;
+  padding: 4px 10px
+}
+
+.burger_btn{
+  border:none;
+  font-size: 16px
+}
+
+/* HEADER */
+
+/* Header Top */
+
+#header_top{
+  line-height: 60px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20
+}
+
+.header_top_img{
+  max-height: 25px;
+  margin-bottom: 3px
+}
+
+/* Header Hero */
+
+#header_hero{
+  margin-top: 60px;
+  background-image: url(../img/hero.svg);
+  background-size: cover;
+}

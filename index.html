@@ -24,7 +24,7 @@
   <!-- Intestazione del sito -->
   <header>
     <!-- Header Top con Nav Bar e Hamburger a scomparsa positionae con fixed -->
-    <div id="header_top" class="bg_white">
+    <div id="header_top" class="white_bg">
       <div class="container">
         <div class="row">
           <div class="col-xs-3 text-left">
@@ -64,12 +64,25 @@
         <div class="row">
           <!-- Colonna con Titolo Principale e Paragrafo -->
           <div class="col-xs-12 col-md-6">
-            <h1 class="main_title">The simplest cloud platform for developers & teams</h1>
-            <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+            <div class="main_title_box">
+              <h1 class="main_title">The simplest cloud platform for developers & teams</h1>
+              <p class="shallow_txt">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+            </div>
           </div>
           <!-- Colonna con Titolo Principale e Paragrafo -->
           <!-- Colonna con Box del Form -->
           <div class="col-xs-12 col-md-6">
+            <div class="hero_form_box white_bg text-center">
+              <h3>Deploy your app in seconds.</h3>
+              <h3 class="light_blue_text">Get started now.</h3>
+              <form class="login" action="index.html" method="post">
+                <input type="email" class="custom_input" placeholder="Email" required>
+                <input type="password" class="custom_input" placeholder="Password" required>
+                <button class="btn wide_btn">Create your account</button>
+                <button class="btn wide_btn google">Sign up with Google</button>
+              </form>
+              <span class="disclaimer">By signing up you agree to the </span><a class="light_blue_text disclaimer" href="">Terms of service</a>
+            </div>
           </div>
           <!-- Colonna con Box del Form -->
         </div>

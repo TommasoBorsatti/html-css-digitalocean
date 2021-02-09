@@ -7,7 +7,7 @@ body{
 
 /* COLORI DI SFONDO */
 
-.bg_white{
+.white_bg{
   background-color: #fff
 }
 
@@ -21,6 +21,14 @@ body{
     color: #006aff
   }
 
+  .white_txt{
+    color: #fff
+  }
+
+  .shallow_txt{
+   color: #bbcdff
+  }
+
 /* TYPO */
 
 header a{
@@ -28,6 +36,26 @@ header a{
   font-size: 16px;
   font-weight: 500;
   color: #031c4e
+}
+
+h1{
+  margin: 0;
+  color: white;
+  font-size: 54px
+}
+
+h3{
+  margin: 0;
+  padding: 8px 0 3px 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #031c4e
+}
+
+p{
+  padding: 25px 0;
+  font-size: 20px;
+  font-weight: 500
 }
 
 /* BOTTONI */
@@ -39,13 +67,60 @@ header a{
   font-size: 13px;
   font-weight: 500;
   padding: none;
-  padding: 4px 10px
+  padding: 6px 10px
+}
+
+.wide_btn{
+  width:100%;
+  padding: 3px 10px;
+  margin: 6px 0;
+  background-color: #579aff;
+  border-color: #579aff;
+  color: #fff
+}
+
+.google{
+  background-color: transparent;
+  border:transparent;
+  color: #626262;
+  box-shadow: 1px 1px 2px #888888;
+  background-image: url(../img/google.png);
+  background-size: 5%;
+  background-repeat: no-repeat;
+  background-position-x: 2%;
+  background-position-y: 50%;
 }
 
 .burger_btn{
   border:none;
   font-size: 16px
 }
+
+/* MIX */
+
+.custom_input{
+  height: 38px;
+  width:100%;
+  line-height: 30px;
+  background-color: transparent;
+  border: 2px solid #eeeeee;
+  color: #757575;
+  margin: 4px 0
+}
+
+span.disclaimer{
+  display: inline-block;
+  margin: 10px 0;
+  color: #626262;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+a.disclaimer{
+  font-size: 11px;
+  text-decoration: underline;
+}
+
 
 /* HEADER */
 
@@ -71,4 +146,59 @@ header a{
   margin-top: 60px;
   background-image: url(../img/hero.svg);
   background-size: cover;
+  background-position-y: 100%
+}
+
+.main_title_box{
+  padding: 70px 0
+}
+
+.hero_form_box{
+  max-width:450px;
+  border-radius: 3px;
+  margin-top: 65px;
+  padding: 24px 20px;
+  position: relative;
+  left: 100px
+}
+
+
+/* MEDIA QUERY PER STILE */
+
+/* < 1200 px */
+
+@media screen and (max-width: 1200px){
+
+/* HEADER */
+
+  .hero_form_box{
+    max-width: 300px
+  }
+
+}
+
+/* < 992 px */
+
+@media screen and (max-width: 992px){
+
+/* HEADER */
+
+  .hero_form_box{
+    width: 100%;
+    max-width: none;
+    position: static;
+    padding-top: 0px;
+    margin-top: 0px
+  }
+
+  .main_title_box{
+    padding: 60px 0 5px 0
+  }
+
+  .main_title_box p{
+    font-size: 24px
+  }
+
+
+
 }

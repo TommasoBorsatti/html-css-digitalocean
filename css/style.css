@@ -343,6 +343,11 @@ ul.carousel_bullets li{
   padding: 0 2px;
 }
 
+/* Main Features */
+
+#features{
+  padding: 50px 0
+}
 
 /* MEDIA QUERY PER STILE */
 

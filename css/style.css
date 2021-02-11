@@ -50,6 +50,14 @@ footer{
     color: #77839C
   }
 
+  .footer_grey_txt{
+    color: #a6adbd;
+    }
+
+  .darker_grey_txt{
+    color: #5a6887
+  }
+
 /* TYPO */
 
 .chevron_down{
@@ -427,6 +435,23 @@ ul.carousel_bullets li{
   padding-top: 30px
 }
 
+.footer_logo{
+  padding-left: 15px;
+}
+
+.social_list{
+  font-size: 19px
+}
+
+footer h6{
+  font-size: 14px
+}
+
+footer a{
+  line-height: 30px;
+  color: #a6adbd;
+  font-weight: 500
+}
 
 /* MEDIA QUERY PER STILE */
 

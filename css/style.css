@@ -454,10 +454,35 @@ footer a{
 
 /* Squaletto Birichino */
 
+.balloon_helper{
+  position: fixed;
+  bottom: 35px;
+  right: 110px;
+  background-color: #ffffd4;
+  width: 300px;
+  height:60px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color:#031c4e;
+}
+
+.triangle_right{
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-left: 10px solid white;
+  border-bottom: 8px solid transparent;
+}
+
 .shark_helper{
   position: fixed;
-  bottom: 4vh;
-  right: 3vw;
+  bottom: 35px;
+  right: 40px;
   width: 55px;
   height: 55px;
   border-radius: 3px;
@@ -484,7 +509,7 @@ footer a{
 }
 
 .notification_circle_small{
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

@@ -458,7 +458,7 @@ footer a{
 .shark_helper{
   position: fixed;
   bottom: 4vh;
-  right: 2vw;
+  right: 3vw;
   width: 55px;
   height: 55px;
   border-radius: 3px;
@@ -472,6 +472,36 @@ footer a{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.notification_circle_wide{
+  position:absolute;
+  top: -11px;
+  right: -11px;
+  background-color: white;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px
+}
+
+.notification_circle_small{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.counter{
+  font-size: 8px;
+  font-weight: 500;
+  color: white;
+  line-height: 20px
 }
 
 /* MEDIA QUERY PER STILE */

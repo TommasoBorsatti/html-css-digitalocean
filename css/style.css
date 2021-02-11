@@ -466,16 +466,17 @@ footer a{
   font-size: 16px;
   font-weight: 500;
   color:#031c4e;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
-.triangle_right{
+.balloon_triangle{
   position: fixed;
   bottom: 50px;
   right: 100px;
   width: 0;
   height: 0;
   border-top: 8px solid transparent;
-  border-left: 10px solid white;
+  border-left: 10px solid #ffffd4;
   border-bottom: 8px solid transparent;
 }
 
@@ -581,23 +582,56 @@ footer a{
 
 /* Main Partners */
 
-.sponsor_img{
-  width: calc((100% / 2) - 3px);
-  padding: 10px 20px
+  .sponsor_img{
+    width: calc((100% / 2) - 3px);
+    padding: 10px 20px
+  }
+
+
+  /* Main Deploy */
+  .menu_list{
+    margin: 0;
+    margin: 10px 0 15px 0
+  }
+
+  /* Main Designed */
+
+  .carousel_box{
+    padding-top: 50px
+  }
+
+  /* FOOTER */
+
+  /* Shark Helper */
+
+  .balloon_helper{
+    position: fixed;
+    bottom: 34px;
+    left: 40px;
+    width: 210px;
+    height: 76px;
+    padding: 6px 10px
+  }
+
+  .balloon_triangle{
+    position: fixed;
+    bottom: 109px;
+    left: 55px;
+    border-top:transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid #ffffd4;
+  }
+
+  .shark_helper{
+    position: fixed;
+    bottom: 130px;
+    left: 40px;
+  }
+
+
 }
 
-
-/* Main Deploy */
-.menu_list{
-  margin: 0;
-  margin: 10px 0 15px 0
-}
-
-/* Main Designed */
-
-.carousel_box{
-  padding-top: 50px
-}
 
 
 /* --------------------------------- */
@@ -609,7 +643,7 @@ footer a{
 
   .arrow_box{
   display: none;
-}
+
 
   #designed .carousel_box{
     display: block;
@@ -670,7 +704,7 @@ footer a{
 
 /* < 300 px */
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 355px){
 
 /* Main Service */
 

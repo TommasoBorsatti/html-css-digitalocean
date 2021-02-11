@@ -529,16 +529,22 @@ footer a{
   line-height: 20px
 }
 
+
+
+
+
+
 /* MEDIA QUERY PER STILE */
 
-/* --------------------------------------- */
+
+
 /* < 1200 px */
 
 @media screen and (max-width: 1200px){
 
-/* HEADER */
+  /* HEADER */
 
-/* Header Hero */
+  /* Header Hero */
 
   .hero_form_box{
     max-width: 300px
@@ -546,17 +552,17 @@ footer a{
 
 }
 
-/* MAIN */
 
 
 /* -------------------------------------- */
+
 /* < 992 px */
 
 @media screen and (max-width: 992px){
 
-/* HEADER */
+  /* HEADER */
 
-/* Header Hero */
+  /* Header Hero */
 
   #header_hero{
     padding-bottom: 70px
@@ -580,7 +586,7 @@ footer a{
 
   /* MAIN */
 
-/* Main Partners */
+  /* Main Partners */
 
   .sponsor_img{
     width: calc((100% / 2) - 3px);
@@ -635,11 +641,12 @@ footer a{
 
 
 /* --------------------------------- */
+
 /* < 767 px */
 
 @media screen and (max-width: 767px){
 
-/* Main Designed */
+  /* Main Designed */
 
   .arrow_box{
   display: none;
@@ -662,22 +669,10 @@ footer a{
 }
 
 /* --------------------------------------- */
-/* < 480 px */
 
-@media screen and (max-width: 480px){
+/* < 517 px */
 
-  /* MAIN */
-
-  /* Main Partners */
-
-  H5.partners_title{
-    font-size: 14px
-  }
-
-  .sponsor_img{
-    width: calc((100% / 2) - 2px);
-    padding: 10px 10px
-  }
+@media screen and (max-width: 517px){
 
   /* Main Service */
 
@@ -696,17 +691,50 @@ footer a{
     padding: 0;
     vertical-align: middle;
   }
+
 }
 
 
+/* ------------------------------------------- */
 
-/* ----------------------------- */
+/* < 480 px */
 
-/* < 300 px */
+@media screen and (max-width: 480px){}
+
+  /* GENERALE */
+
+  h2{
+    font-size:30px
+  }
+
+  /* MAIN */
+
+  /* Main Partners */
+
+  h5.partners_title{
+    font-size: 14px
+  }
+
+  .sponsor_img{
+    width: calc((100% / 2) - 2px);
+    padding: 10px 10px
+  }
+
+  /* Development */
+
+  #development p.carousel_text{
+    font-size: 15px
+  }
+
+}
+
+  /* ----------------------------- */
+
+  /* < 300 px */
 
 @media screen and (max-width: 355px){
 
-/* Main Service */
+  /* Main Service */
 
   #service .main_link{
     font-size: 4px;
@@ -720,10 +748,10 @@ footer a{
     vertical-align: middle;
   }
 
-/* Main Development */
+  /* Main Development */
 
-.rocker_logo{
-  max-width: 150px
-}
+  .rocker_logo{
+    max-width: 150px
+  }
 
 }

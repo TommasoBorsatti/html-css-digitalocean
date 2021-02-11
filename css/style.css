@@ -542,6 +542,12 @@ footer a{
 
 @media screen and (max-width: 1200px){
 
+  /* GENERALE */
+
+  .google{
+    background-size: 6%;
+  }
+
   /* HEADER */
 
   /* Header Hero */
@@ -559,6 +565,12 @@ footer a{
 /* < 992 px */
 
 @media screen and (max-width: 992px){
+
+  /* GENERALE */
+
+  .google{
+    background-size: 3%;
+  }
 
   /* HEADER */
 
@@ -712,7 +724,7 @@ footer a{
   /* Main Partners */
 
   h5.partners_title{
-    font-size: 14px
+    font-size: 18px
   }
 
   .sponsor_img{

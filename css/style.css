@@ -140,11 +140,14 @@ p{
   font-size: 13px;
   font-weight: 500;
   padding: none;
-  padding: 6px 10px
+  padding: 6px 10px;
+  outline: none;
 }
 
-.btn:focus{
+.btn:focus,
+.btn:active{
   border: 1px solid #006aff;
+  outline: none !important
 }
 
 .wide_btn{
